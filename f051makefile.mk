@@ -38,3 +38,4 @@ CFLAGS_$(MCU) += \
 	-DPREFETCH_ENABLE=1
 
 SRC_$(MCU) := $(foreach dir,$(SRC_DIR_$(MCU)),$(wildcard $(dir)/*.[cs]))
+
