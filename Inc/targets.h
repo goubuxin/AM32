@@ -6147,6 +6147,8 @@
 //我自己的
 #ifdef MY_HARDWARE
 #define MCU_F051
+#define FILE_NAME "MY_HARDWARE"
+#define FIRMWARE_NAME "F051"
 //输入信号
 #define USE_TIMER_17_CHANNEL_1
 #define INPUT_PIN LL_GPIO_PIN_9
